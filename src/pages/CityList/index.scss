@@ -1,0 +1,16 @@
+.cityList_box {
+    height: 100vh;
+    overflow: hidden;
+    &>div {
+        width: 100%;
+    }
+    .list_box {
+        flex: 1;
+        overflow-y: scroll;
+    }
+    .adm-index-bar-anchor-title {
+        font-weight: 600;
+        color: #000;
+        font-size: 15px;
+    }
+}

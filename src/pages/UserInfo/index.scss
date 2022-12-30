@@ -1,0 +1,27 @@
+.user_info_box {
+    .uploadImg {
+        position: relative;
+
+    }
+    .adm-space-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .list_span {
+        display: inline-block;
+        width: 70px;
+        text-align: justify;
+        text-justify:distribute-all-lines; // 这行必加，兼容ie浏览器
+        text-align-last: justify;
+        font-size: 15px;
+    }
+    .adm-image-uploader-cell-image {
+        overflow: hidden;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+}

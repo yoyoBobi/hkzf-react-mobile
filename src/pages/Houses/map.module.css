@@ -1,0 +1,25 @@
+.rect {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 0 3px;
+    border-radius: 3px;
+    border: 1px solid #CC5E56;
+    position: absolute;
+    background: rgba(243, 105, 84, 0.9);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .arrow {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-width: 4px;
+    border-top-color: #CC5E56;
+    bottom: -9px;
+  }

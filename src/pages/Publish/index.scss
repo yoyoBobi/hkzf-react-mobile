@@ -1,0 +1,29 @@
+.publish_houses_box {
+    height: 100vh;
+    overflow: hidden;
+    .content_box {
+        flex: 1;
+        overflow-y: scroll;
+        border-top: 1px solid #eee;
+        .adm-list-item-content-extra {
+            color: #333;
+        }
+        .list_span {
+            display: inline-block;
+            width: 70px;
+            text-align: justify;
+            text-justify:distribute-all-lines; // 这行必加，兼容ie浏览器
+            text-align-last: justify;
+            font-size: 15px;
+        }
+    }
+}
+
+.popup_form_box {
+    height: 50vh;
+    .content_box {
+        flex: 1;
+        overflow-y: scroll;
+        border-top: 1px solid #eee;
+    }
+}

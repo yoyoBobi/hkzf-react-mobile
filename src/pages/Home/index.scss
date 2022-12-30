@@ -1,0 +1,125 @@
+.home_box {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    &>div {
+        width: 100%;
+    }
+}
+
+.swiper_box {
+    position: relative;
+    height: 200px;
+    background-color: #EEE;
+    .search_box {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .search_left {
+            margin-right: 10px;
+            height: 35px;
+            background-color: #ffffff;
+            flex: 1;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            overflow: hidden;
+            align-items: center;
+            
+            .click_search {
+                justify-content: center;
+                align-items: center;
+                flex: 1;
+                color: #999;
+            }
+        }
+    }
+    .swiper_item {
+        height: 200px;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        user-select: none;
+    }
+}
+
+.menu_box {
+    justify-content: space-around;
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px 0;
+    &>div {
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.groups_box {
+    background-color: #EEEEEE;
+    padding: 10px;
+    .top_title {
+        justify-content: space-between;
+        span:first-child {
+            font-weight: 600;
+            font-size: 15px;
+            color: #000;
+        }
+        span:last-child {
+            color: #999;
+        }
+    }
+    .list_box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .list_item {
+            width: calc((100vw - 30px) / 2);
+            background-color: #FFFFFF;
+            height: 100px;
+            box-shadow: 0 0px 1px rgba($color: #999, $alpha: .3);
+            &>div {
+                justify-content: space-between;
+                div:nth-child(1) {
+                    span:first-child {
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: #000;
+                    }
+                    span:last-child {
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home_news_box {
+    .news_line {
+        border-top: 1px solid #EEE;
+        margin-top: 15px;
+    }
+    .news_item {
+        .item_right {
+            flex: 1;
+            height: 80px;
+            justify-content: space-between;
+            &>div {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+    }
+}

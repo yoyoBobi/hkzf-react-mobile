@@ -1,0 +1,67 @@
+body, html, #root {
+  color: #333;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// .ka-wrapper, .ka-content {
+//   height: 100%;
+// }
+
+// 定义全局内外边距，历遍1-80
+@for $i from 1 through 80 {
+    // 外边距
+		.mg-#{$i} { margin: $i + px; }
+		.mg-l-#{$i} { margin-left: $i + px; }
+		.mg-r-#{$i} { margin-right: $i + px; }
+		.mg-t-#{$i} { margin-top: $i + px; }
+		.mg-b-#{$i} { margin-bottom: $i + px; }
+		.mg-lr-#{$i} { margin: 0px ($i + px); }
+		.mg-tb-#{$i} { margin: ($i + px) 0px; }
+		
+    // 内边距
+		.pd-#{$i} { padding: $i + px; }
+		.pd-l-#{$i} { padding-left: $i + px; }
+		.pd-r-#{$i} { padding-right: $i + px; }
+		.pd-t-#{$i} { padding-top: $i + px; }
+		.pd-b-#{$i} { padding-bottom: $i + px; }
+		.pd-lr-#{$i} { padding: 0px ($i + px); }
+		.pd-tb-#{$i} { padding: ($i + px) 0px; }
+}
+
+// 设置全局 flex 布局样式
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+.flex_ {
+  display: flex;
+}
+.flex_ctr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex_bet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_ard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+

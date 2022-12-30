@@ -1,0 +1,41 @@
+.login_box {
+    height: 100%;
+    .login_content {
+        flex: 1;
+        padding-top: 40px;
+        .login_log {
+            &>span {
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 3px;
+            }
+        }
+        .input_item {
+            padding: 10px 0;
+            border-bottom: 1px solid rgb(221, 218, 218);
+        }
+        .save_register {
+            font-size: 14px;
+            .adm-radio {
+                --icon-size: 15px
+            }
+            .adm-radio-content {
+                font-size: 12px ;
+            }
+        }
+        .btn_login {
+            height: 35px;
+            width: 100%;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0px 15px 10px -15px rgba($color: #000000,$alpha: .333);
+            background: linear-gradient(135deg, #2979ff, #a0cfff);
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+}
+    }
+}

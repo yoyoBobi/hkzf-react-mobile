@@ -1,0 +1,39 @@
+.news_box {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    &>div {
+        width: 100%;
+    }
+    .adm-nav-bar {
+        border-bottom: 1px solid #eee;
+    }
+    
+    .news_item_box {
+        overflow-y: scroll;
+        flex: 1;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        .news_line {
+            border-top: 1px solid #EEE;
+            margin-top: 15px;
+        }
+        .news_item {
+            margin-top: 15px;
+            &:first-child {
+                margin-top: 0px;
+            }
+            .item_right {
+                flex: 1;
+                height: 80px;
+                justify-content: space-between;
+                &>div {
+                    width: 100%;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.info_box {
+    .iconfont {
+        font-size: 26px;
+    }
+}
+.user_info {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    .bg_content {
+        position: absolute;
+        width: 750px;
+        left: 50%;
+        bottom: 100px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .user_content {
+        position: absolute;
+        background-color: #ffffff;
+        box-shadow: 0 1px 10px #eee;
+        width: 300px;
+        height: 160px;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        .user_avater{
+            position: absolute;
+            top: -35px;
+        }
+        .adm-button-block {
+            width: 120px;
+            position: absolute;
+            bottom: 10px;
+            font-size: 13px;
+        }
+    }
+
+}

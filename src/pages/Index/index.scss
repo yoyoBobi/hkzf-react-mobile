@@ -1,0 +1,19 @@
+.index_box {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    &>div {
+        width: 100%;
+    }
+    .item_box {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .bottom_box {
+        height: 50px;
+        border-top: solid 1px #eee;
+    }
+}

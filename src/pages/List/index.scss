@@ -1,0 +1,44 @@
+
+.find_list_box {
+    height: calc(100vh - 50px);
+    position: relative;
+    overflow: hidden;
+    .search_box {
+        height: 40px;
+        background-color: #eee;
+        padding: 0 10px;
+        .left_ {
+            height: 32px;
+            background-color: #FFF;
+            flex: 1;
+            padding-left: 10px;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            .click_search {
+                border-left: 1px solid #999;
+                padding-left: 10px;
+                margin-left: 10px;
+                flex: 1;
+                color: #999;
+            }
+        }
+    }
+    .find_content {
+        flex: 1;
+        overflow: hidden;
+        .houses_content {
+            flex: 1;
+            overflow-y: scroll;
+            padding: 0 10px;
+            border-top: 1px solid #eee;
+        }
+    }
+}
+.find_dropdown_content {
+    height: 250px;
+    background-color: #FFF;
+    overflow-y: scroll;
+}
